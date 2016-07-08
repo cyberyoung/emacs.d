@@ -4,6 +4,6 @@
     (interactive)
       (shell-command "open -n -a /opt/homebrew-cask/Caskroom/emacs/24.5-1/Emacs.app"))
 
-(set-face-attribute 'default nil :height 160')
+(set-face-attribute 'default nil :height 160)
 
 (provide 'init-local)
