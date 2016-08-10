@@ -2,7 +2,7 @@
 
 (defun new-emacs ()
     (interactive)
-      (shell-command "open -n -a /opt/homebrew-cask/Caskroom/emacs/24.5-1/Emacs.app"))
+      (shell-command "open -n -a /Applications//Emacs.app"))
 
 (set-face-attribute 'default nil :height 160)
 
