@@ -6,4 +6,6 @@
 
 (set-face-attribute 'default nil :height 160)
 
+(setq lisp-indent-offset 2)
+
 (provide 'init-local)
