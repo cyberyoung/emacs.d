@@ -4,9 +4,9 @@
     (interactive)
       (shell-command "open -n -a /Applications//Emacs.app"))
 
-(set-face-attribute 'default nil :height 160)
+(set-face-attribute 'default nil :height 130)
 
-(setq lisp-indent-offset 2)
+;;(setq lisp-indent-offset 2)
 
 (add-to-list 'auto-mode-alist '("\\.js$" . js-jsx-mode))
 
